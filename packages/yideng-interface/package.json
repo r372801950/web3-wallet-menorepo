@@ -1,5 +1,5 @@
 {
-  "name": "yideng-interface",
+  "name": "yd-interface",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,7 @@
     "ethers": "^5.7.2",
     "jest-stare": "^2.5.2",
     "lucide-react": "^0.475.0",
+    "path": "^0.12.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5",

@@ -34,7 +34,11 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new Dotenv(),
-    new MiniCssExtractPlugin(),
+    new MiniCssExtractPlugin({
+      filename: 'styles/[name].css',
+      chunkFilename: 'styles/[name].css',
+      ignoreOrder: false,
+    }),
     new ThemedProgressPlugin(),
-  ],
+  ]
 };
