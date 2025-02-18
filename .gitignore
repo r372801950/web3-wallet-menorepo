@@ -4,13 +4,13 @@
 .env.*.local
 
 # Dependencies
-/node_modules
-/.pnp
+node_modules
+.pnp
 .pnp.js
 
 # Build outputs
-/dist
-/build
+dist
+build
 
 # IDE specific files
 .idea/
