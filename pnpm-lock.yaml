@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      connectkit:
+        specifier: ^1.5.3
+        version: 1.8.2(@babel/core@7.26.9)(@tanstack/react-query@5.66.6(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react-is@18.3.1)(react@19.0.0)(viem@2.23.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)(zod@3.23.8))(wagmi@2.14.11(@tanstack/query-core@5.66.4)(@tanstack/react-query@5.66.6(react@19.0.0))(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(utf-8-validate@5.0.10)(viem@2.23.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8))
     devDependencies:
       '@swc/core':
         specifier: ^1.10.16
@@ -46,6 +50,145 @@ importers:
         version: 6.0.1
 
   packages/YD-interface:
+    dependencies:
+      '@ethersproject/bignumber':
+        specifier: ^5.7.0
+        version: 5.7.0
+      '@ethersproject/units':
+        specifier: ^5.7.0
+        version: 5.7.0
+      '@swc/jest':
+        specifier: ^0.2.37
+        version: 0.2.37(@swc/core@1.10.17)
+      '@tanstack/react-query':
+        specifier: ^5.66.0
+        version: 5.66.6(react@19.0.0)
+      '@wagmi/core':
+        specifier: ^2.16.4
+        version: 2.16.4(@tanstack/query-core@5.66.4)(@types/react@19.0.10)(react@19.0.0)(use-sync-external-store@1.4.0(react@19.0.0))(viem@2.23.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)(zod@3.23.8))
+      '@web3-react/core':
+        specifier: ^8.2.3
+        version: 8.2.3(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(utf-8-validate@5.0.10)
+      '@web3-react/metamask':
+        specifier: ^8.2.4
+        version: 8.2.4(@types/react@19.0.10)(react@19.0.0)
+      connectkit:
+        specifier: ^1.8.2
+        version: 1.8.2(@babel/core@7.26.9)(@tanstack/react-query@5.66.6(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react-is@18.3.1)(react@19.0.0)(viem@2.23.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)(zod@3.23.8))(wagmi@2.14.11(@tanstack/query-core@5.66.4)(@tanstack/react-query@5.66.6(react@19.0.0))(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(utf-8-validate@5.0.10)(viem@2.23.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8))
+      dotenv:
+        specifier: ^16.4.7
+        version: 16.4.7
+      ethers:
+        specifier: ^5.7.2
+        version: 5.7.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      jest-stare:
+        specifier: ^2.5.2
+        version: 2.5.2(@popperjs/core@2.11.8)(node-notifier@10.0.1)
+      lucide-react:
+        specifier: ^0.475.0
+        version: 0.475.0(react@19.0.0)
+      path:
+        specifier: ^0.12.7
+        version: 0.12.7
+      react:
+        specifier: ^19.0.0
+        version: 19.0.0
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.0.0(react@19.0.0)
+      react-router-dom:
+        specifier: ^7.1.5
+        version: 7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      viem:
+        specifier: ^2.23.2
+        version: 2.23.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)(zod@3.23.8)
+      wagmi:
+        specifier: ^2.14.11
+        version: 2.14.11(@tanstack/query-core@5.66.4)(@tanstack/react-query@5.66.6(react@19.0.0))(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(utf-8-validate@5.0.10)(viem@2.23.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)(zod@3.23.8))(zod@3.23.8)
+    devDependencies:
+      '@soda/friendly-errors-webpack-plugin':
+        specifier: ^1.8.1
+        version: 1.8.1(webpack@5.98.0)
+      '@swc/core':
+        specifier: ^1.10.16
+        version: 1.10.17
+      '@tailwindcss/postcss':
+        specifier: ^4.0.6
+        version: 4.0.6
+      '@types/jest':
+        specifier: ^29.5.14
+        version: 29.5.14
+      '@types/react':
+        specifier: ^19.0.8
+        version: 19.0.10
+      '@types/react-dom':
+        specifier: ^19.0.3
+        version: 19.0.4(@types/react@19.0.10)
+      '@web3-react/types':
+        specifier: ^8.2.3
+        version: 8.2.3(@types/react@19.0.10)(react@19.0.0)
+      backstopjs:
+        specifier: ^6.3.25
+        version: 6.3.25(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      clean-webpack-plugin:
+        specifier: ^4.0.0
+        version: 4.0.0(webpack@5.98.0)
+      css-loader:
+        specifier: ^7.1.2
+        version: 7.1.2(webpack@5.98.0)
+      dotenv-webpack:
+        specifier: ^8.1.0
+        version: 8.1.0(webpack@5.98.0)
+      html-webpack-plugin:
+        specifier: ^5.6.3
+        version: 5.6.3(webpack@5.98.0)
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@22.13.4)(node-notifier@10.0.1)
+      mini-css-extract-plugin:
+        specifier: ^2.9.2
+        version: 2.9.2(webpack@5.98.0)
+      node-notifier:
+        specifier: ^10.0.1
+        version: 10.0.1
+      postcss:
+        specifier: ^8.5.2
+        version: 8.5.2
+      postcss-loader:
+        specifier: ^8.1.1
+        version: 8.1.1(postcss@8.5.2)(webpack@5.98.0)
+      style-loader:
+        specifier: ^4.0.0
+        version: 4.0.0(webpack@5.98.0)
+      swc-loader:
+        specifier: ^0.2.6
+        version: 0.2.6(@swc/core@1.10.17)(webpack@5.98.0)
+      tailwindcss:
+        specifier: ^4.0.6
+        version: 4.0.6
+      themed-progress-plugin:
+        specifier: ^1.0.1
+        version: 1.0.1(webpack@5.98.0)
+      webpack:
+        specifier: ^5.97.1
+        version: 5.98.0(@swc/core@1.10.17)(webpack-cli@6.0.1)
+      webpack-bundle-analyzer:
+        specifier: ^4.10.2
+        version: 4.10.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      webpack-cli:
+        specifier: ^6.0.1
+        version: 6.0.1(webpack-bundle-analyzer@4.10.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))(webpack-dev-server@5.2.0)(webpack@5.98.0)
+      webpack-dev-server:
+        specifier: ^5.2.0
+        version: 5.2.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)(webpack-cli@6.0.1)(webpack@5.98.0)
+      webpack-merge:
+        specifier: ^6.0.1
+        version: 6.0.1
+      yargs-parser:
+        specifier: ^21.1.1
+        version: 21.1.1
+
+  packages/YD-web3-react:
     dependencies:
       '@ethersproject/bignumber':
         specifier: ^5.7.0
